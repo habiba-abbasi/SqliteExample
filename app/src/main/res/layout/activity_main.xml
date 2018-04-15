@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/colorWhite"
+            android:text="ENTER DATA"/>
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:hint="Enter ID"
+        android:inputType="text"/>
+
+  <EditText
+      android:id="@+id/etName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:textColor="@color/colorWhite"
+      android:hint="Enter Name"
+      android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"/>
+
+
+    <EditText
+        android:id="@+id/etPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:hint="Enter Password"
+       android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+       android:inputType="textPassword"
+       />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector"/>
+
+    <Button
+        android:id="@+id/btView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector"/>
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector"
+        />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.constraint.ConstraintLayout>
+</layout>
